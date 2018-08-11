@@ -1,7 +1,7 @@
 # DatabaseScriptGenerator
 PowerShell scripts to create database SQL scripts
 
-##Usage
+## Usage
 .\generate-inserts.ps1 -serverName "Omar\SQLEXPRESS" -databaseName "SCHOOL" -tableNames "GRADUATION","STUDENT" -savePath = "C:\Documents\Databases\"
 
 The -tableNames and - savePath are optional.
